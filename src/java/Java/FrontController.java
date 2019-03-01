@@ -30,8 +30,6 @@ public class FrontController extends HttpServlet {
         ContextFactory contextFactory = null;
         ApplicationController applicationController = null;
 
-        // plubbing code (security, authorization)
-
         // extracting data from protocol
         contextFactory = new ContextFactory();
         requestContext = contextFactory.getContextObject(request);
